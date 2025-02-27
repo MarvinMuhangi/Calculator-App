@@ -1,0 +1,40 @@
+
+.board{
+  width: 300px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 10px;
+  background-color: rgb(63, 63, 60);
+  padding: 30px;
+  height:500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin:10% auto;
+ position:relative;
+}
+.calc{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  
+}
+button{
+  width:70px;
+  height:80px;
+  background-color: rgb(91, 91, 89);
+  color:white;
+  font-size: 25px;
+
+}
+
+
+.display {
+  height: 30px;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-left:20px;
+  overflow: auto; 
+}
